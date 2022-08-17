@@ -14,12 +14,17 @@ body {
 .screen {
     display: grid;
     justify-items: end;
-    width: 300px;
-    height: 90px;
-    padding: 15px;
+    height: 100px;
     color: white;
-    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 40px;
+    margin: 15px 0;
     overflow: hidden;
+}
+
+.screen p {
+    position: absolute;
+    top: 120px;
 }
 
 .btnContainer {
@@ -44,7 +49,7 @@ button#zero {
     grid-column: -3 / -5;
     border-radius: 2.5rem;
     text-align: left;
-    padding-left: 40px;
+    padding-left: 25px;
 }
 
 button.number,
