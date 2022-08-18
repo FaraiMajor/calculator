@@ -12,19 +12,16 @@ body {
 }
 
 .screen {
-    display: grid;
-    justify-items: end;
-    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    width: 100%;
+    height: 150px;
     color: white;
-    padding: 20px;
     font-size: 40px;
     margin: 15px 0;
     overflow: hidden;
-}
-
-.screen p {
-    position: absolute;
-    top: 120px;
+    justify-items: self-end;
 }
 
 .btnContainer {
