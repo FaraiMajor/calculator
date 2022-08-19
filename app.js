@@ -108,7 +108,11 @@ operator.forEach(op =>
 
 //clear all
 deleteAll.addEventListener('click', e => {
-    init();
+    firstOperand = 0;
+    secondOperand = 0;
+    displayValue = '';
+    result = 0;
+    boxText.innerHTML = 0
 })
 
 equals.addEventListener('click', () => {
