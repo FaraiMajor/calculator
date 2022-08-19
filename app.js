@@ -80,6 +80,13 @@ function updateDisplay(e) {
         secondOperand = e.target.textContent;
         displayValue = operate(operation, firstOperand, secondOperand);
     }
+    if (result !== 0) {
+        result = 0
+        displayValue = ''
+        boxText.innerHTML = e.target.textContent
+        displayValue += e.target.textContent;
+        secondOperand = boxText.textContent
+    }
 }
 
 // runs whenever operator is clicked and save operation to global variable;
