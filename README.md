@@ -1,7 +1,7 @@
 # calculator
 ## [Live Demo](https://faraimajor.github.io/admin-dashboard/)
 
-<img src = "https://github.com/FaraiMajor/calculator/blob/calculator.png" width = "750" />
+<img src = "https://github.com/FaraiMajor/calculator/blob/main/calculator.png" width = "500" />
 
 
 
