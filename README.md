@@ -1,10 +1,21 @@
 # calculator
-## [Live Demo](https://faraimajor.github.io/admin-dashboard/)
+
+## [Live Demo](https://faraimajor.github.io/calculator/)
 
 <img src = "https://github.com/FaraiMajor/calculator/blob/main/calculator.png" width = "500" />
 
 
 This is a simple calculators created using vanillaJS, HTML and CSS
+
+## Requirements
+<li>Calculator is capable of addition, subtraction, multiplication and division.</li>
+<li>Calculations are made from left-to-right, ignoring order of operations. (ie: 1 + 2 * 3 = 9)</li>
+<li>Round or shorten answers so they do not overflow the screen</li>
+<li>A button to clear the calculator to its default state</li>
+<li>A button to delete the last entered number/operator</li>
+<li>Floating point numbers are valid and can only have one decimal point
+Keyboard Support
+  </li>
 
 ### Technologies Used
 
